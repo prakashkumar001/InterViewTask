@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#ccc"
+
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Prakash"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:textColor="@android:color/black"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="Title"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text=":"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="Description"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text=":"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_gravity="center"
+            android:text=""
+            android:maxLength="200"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/black"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="Updated Date &amp; Time"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text=":"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                />
+        <TextView
+            android:id="@+id/updated_date"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=""
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/black"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
